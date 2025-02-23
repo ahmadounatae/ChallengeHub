@@ -3,5 +3,5 @@ const challengeController = require('../controllers/challengeController'); // Im
 const router = express.Router();
 
 // Route pour supprimer un challenge
-router.delete('/:id', challengeController.deleteChallenge);
+router.delete('/:id', challengeController.requestDeleteChallenge);
 module.exports = router;
