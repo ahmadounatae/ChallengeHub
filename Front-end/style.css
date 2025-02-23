@@ -1,0 +1,158 @@
+.right_page{
+    background-color: #E7ECF1;
+    height: 100%;
+    position: absolute;
+    left:50%;
+    width: 50%;
+    height: 100%;
+    top:0%;
+   
+}
+.left_page{
+    background-color: #D3E0E8;
+    position:absolute;
+    top:0%;
+    left:0%;
+    height: 100%;
+    width:50%;
+}
+.left_page h3{
+    position: absolute;
+    top:28%;
+    left: 31%;
+    font-family: Roboto;
+    font-size: 25px;
+}
+.btn{
+    
+    padding: 15px 30px;
+        
+    background-color: #4046C9;
+    color: #ffffff;
+    font-size: 0.56rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    position:absolute;
+    top:90%;
+    left:44%;
+}
+.btn1{
+
+    padding: 15px 30px;
+    
+    background-color: #4046C9;
+    color: #ffffff;
+    font-size: 0.56rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    position:absolute;
+    top:60%;
+    left:40%; 
+}
+.left_page p {
+    font-family: 'Tapestry', cursive; /* Application de la police Tapestry */
+    font-size: 18px; /* Taille du texte */
+    line-height: 1.5; /* Espacement entre les lignes */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    position:absolute;
+    top: 40%;
+    left:20%;
+}
+.left_page p span {
+    display: block; /* Permet de mettre chaque phrase sur une nouvelle ligne */
+    margin-bottom: 10px; /* Espacement entre les deux lignes */
+}
+/* Style générique pour tous les champs de texte et mots de passe */
+.right_page input[type="text"],
+.right_page  input[type="email"],
+.right_page  input[type="password"],
+.right_page  input[type="Nom"],
+.right_page  input[type="Prénom"],
+.right_page input[type="nom d'utilisateur"] {
+    width: 80%; /* Largeur ajustée */
+    max-width: 500px; /* Largeur max */
+    padding: 10px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis pour un effet moderne */
+    font-size: 16px; /* Taille du texte */
+    text-align: left; /* Centrer le texte */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Ombre */
+}
+/* Centrer la partie contenant les champs (right_pannel) */
+.right_page {
+    display: flex; /* Utiliser Flexbox pour disposer les éléments */
+    flex-direction: column; /* Disposer les éléments en colonne */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    height: 100vh; /* Hauteur de l'écran */
+    gap: -2px; /* Espacement plus petit entre chaque champ */
+}
+
+/* Style des champs d'entrée */
+.right_page input {
+    width: 80%; /* Largeur ajustée */
+    max-width: 500px; /* Largeur max */
+    padding: 10px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille du texte */
+    text-align: left; /* Centrer le texte */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Ombre */
+}
+
+/* Style du placeholder */
+.right_page input::placeholder {
+    color: #1E1E1E; /* Couleur du texte du placeholder */
+}
+
+.right_page h3{
+    position: absolute;
+    top:5%;
+    left: 33%;
+    font-family: Sail;
+    font-size: 30px;
+}
+.cercle{
+    width: 400px; /* Largeur du cercle */
+    height: 240px; /* Moitié de la hauteur pour un demi-cercle */
+    background-color: #D8E5ED; /* Couleur du demi-cercle */
+    border-radius: 50%; /* Arrondi uniquement en bas pour faire un demi-cercle inversé */
+    position:absolute;
+    left:25%;
+    top:0px;
+    transform: translateY(-50%);
+    box-shadow: 0 0px 5px;
+    overflow: hidden;
+}
+.cercle1{
+    width: 650px; /* Largeur du cercle */
+    height: 350px; /* Moitié de la hauteur pour un demi-cercle */
+    background-color: #D8E5ED; /* Couleur du demi-cercle */
+    border-radius: 50%; /* Arrondi uniquement en bas pour faire un demi-cercle inversé */
+    position:absolute;
+   left:500px;
+    bottom: 0%;
+    right:0%;
+    transform: translateY(50%);
+    box-shadow: 0 0px 5px;
+    overflow: hidden;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.right_pannel {
+        position: relative; /* Permet de contenir les éléments absolument positionnés */
+        overflow: hidden; /* Cache uniquement ce qui dépasse */
+        min-height: 100vh;
+        position:absolute;
+        left:50%;
+}
